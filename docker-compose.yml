@@ -3,7 +3,6 @@ version: '3.8'
 services:
   php:
     build: .
-    image: php:8.2-cli
     volumes:
       - ./:/var/www/html
     working_dir: /var/www/html
